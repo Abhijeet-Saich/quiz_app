@@ -27,9 +27,9 @@ const AuthLogin = () => {
     }
   }
 
-  const handleLoginClick = async (e) =>{
+  const handleLoginClick = (e) =>{
     e.preventDefault();
-    const token = await loginHandler(username,password);
+    const token = loginHandler(username,password);
     console.log(token)
     if(token){
         navigate('/');
