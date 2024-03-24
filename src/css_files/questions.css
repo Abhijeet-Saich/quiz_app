@@ -68,4 +68,18 @@
   .opacity {
     cursor: default;
   }
+
+
+  @media screen and (max-width  : 950px) {
+    .question-dialog{
+      width: 60vw;
+    }
+    
+  }
   
+  @media screen and (max-width  : 650px) {
+    .question-dialog{
+      width: 90vw;
+    }
+    
+  }
